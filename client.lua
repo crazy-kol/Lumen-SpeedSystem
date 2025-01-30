@@ -26,7 +26,7 @@ RegisterCommand("limitspeed", function(source, args)
         local distance = #(playerCoords - zone.coords)
         if distance < zone.radius then
             inZone = true
-            break -
+            break 
         end
     end
 
